@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "sonarrseriessearch"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pydantic = "^1.9.1"
+aiopyarr = "^22.7.0"
+pushover-python = "^0"
+dynaconf = "^3.1.9"
+
+[tool.poetry.dev-dependencies]
+python-devtools = "^2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
