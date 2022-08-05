@@ -1,4 +1,4 @@
 # seriesSearch
-python app for interacting with sonar api v3
+quick python script for automating some API calls using [aiopyarr](https://github.com/tkdrob/aiopyarr)  
 
-Mainly just wanted to experiment with poetry and pydantic. This seemed like a good oppurtunity to try something new
+Mainly just wanted to experiment with poetry and pydantic. 
