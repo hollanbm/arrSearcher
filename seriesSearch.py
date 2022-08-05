@@ -1,3 +1,5 @@
+import datetime
+
 from config import settings
 import asyncio
 from aiopyarr import QualityProfile, Tag
@@ -36,7 +38,7 @@ async def series_search():
                 print(f'adding api_search tag')
                 await client.async_edit_series(data=show)
                 print('sleeping for 15mins')
-                await asyncio.sleep(15 * 60 * 60)
+                await asyncio.sleep(datetime.timedelta(minutes=15).seconds)
 
 
 asyncio.run(series_search())
